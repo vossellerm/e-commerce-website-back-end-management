@@ -9,7 +9,7 @@ Category.init(
     // define columns
     // id: integar, not null, primary key, auto increment
     id: {
-      type: DataTypes.INTEGAR,
+      type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
