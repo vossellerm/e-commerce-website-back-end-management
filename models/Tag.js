@@ -8,7 +8,16 @@ Tag.init(
   {
     // define columns
     // id: integar, not null, primary key, auto increment
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
     // tag name: string
+    tag_name: {
+      type: DataTypes.STRING,
+    },
   },
   {
     sequelize,
